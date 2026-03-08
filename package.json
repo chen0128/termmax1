@@ -1,0 +1,20 @@
+{
+  "name": "termmax",
+  "version": "1.0.0",
+  "description": "TermMax auto check-in via private keys (desktop GUI + CLI)",
+  "main": "termmax-checkin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkin": "node termmax-checkin.js",
+    "dashboard": "python termmax-gui.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
